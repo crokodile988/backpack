@@ -42,16 +42,7 @@ img{
 
 <img src="meme1.jpeg" alt="Мем">
 
-<script>
-fetch("https://api.countapi.xyz/hit/backpack-qr-site6543565687678656434567/visits")
-.then(response => response.json())
-.then(data => {
-    document.getElementById("visitor").textContent = data.value + "-й";
-})
-.catch(() => {
-    document.getElementById("visitor").textContent = "неизвестно какой";
-});
-</script>
+
 
 </body>
 </html>
